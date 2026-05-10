@@ -9,7 +9,10 @@
       "Bash(npm run *)",
       "Bash(git commit -m ' *)",
       "Bash(del .git\\\\refs\\\\heads\\\\main)",
-      "Bash(rm \"c:\\\\Users\\\\Ben\\\\Documents\\\\GitHub\\\\hiremyninja\\\\.git\\\\refs\\\\heads\\\\main\" && echo \"Deleted successfully\")"
+      "Bash(rm \"c:\\\\Users\\\\Ben\\\\Documents\\\\GitHub\\\\hiremyninja\\\\.git\\\\refs\\\\heads\\\\main\" && echo \"Deleted successfully\")",
+      "Bash(git push *)",
+      "Bash(rm \"c:\\\\Users\\\\Ben\\\\Documents\\\\GitHub\\\\hiremyninja\\\\.git\\\\refs\\\\remotes\\\\origin\\\\main\")",
+      "Bash(git fetch *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Ben\\Documents\\GitHub\\hiremyninja\\.git\\refs\\heads"

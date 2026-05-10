@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { useRouter } from "next/navigation";
 
 // ---------------------------------------------------------------------------
 // Pricing tables — update these to reflect actual Raleigh pricing
@@ -89,6 +90,7 @@ function calcRange(
 // Component
 // ---------------------------------------------------------------------------
 export default function PriceCalculator() {
+  const router = useRouter();
   const [step, setStep] = useState(1);
   const [selectedServices, setSelectedServices] = useState<ServiceId[]>([]);
   const [sqft, setSqft] = useState("");
@@ -139,7 +141,7 @@ export default function PriceCalculator() {
 
       const res = await fetch("/api/submit-quote", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Submission failed");
-      setStep(6);
+      router.push("/thanks");
     } catch {
       setSubmitError("Something went wrong. Please call us at (919) 533-5666.");
     } finally {

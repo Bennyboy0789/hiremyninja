@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { useRouter } from "next/navigation";
 
 const CONCERNS = [
   "Moisture / Standing Water",
@@ -14,6 +15,7 @@ const CONCERNS = [
 ];
 
 export default function LeadForm() {
+  const router = useRouter();
   const [step, setStep] = useState(1);
 
   // Step 1 — contact
@@ -71,7 +73,7 @@ export default function LeadForm() {
 
       const res = await fetch("/api/submit-lead", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Submission failed");
-      setStep(4);
+      router.push("/thanks");
     } catch {
       setSubmitError("Something went wrong. Please call us at (919) 533-5666.");
     } finally {
