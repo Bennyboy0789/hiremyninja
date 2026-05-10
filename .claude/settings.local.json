@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:crawlspaceninja.com)",
+      "Bash(curl -s \"https://crawlspaceninja.com/\")",
+      "Bash(curl -s \"https://crawlspaceninja.com/locations/raleigh-nc/\")",
+      "Bash(grep -i \"color\\\\|background\\\\|#[0-9a-f]\\\\{3,6\\\\}\\\\|rgba\\\\|rgb\" \"C:\\\\Users\\\\Ben\\\\.claude\\\\projects\\\\c--Users-Ben-Documents-GitHub-hiremyninja\\\\ad441095-0e91-4afd-8344-94bdcbe306c7\\\\tool-results\\\\bcys1c8xy.txt\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
