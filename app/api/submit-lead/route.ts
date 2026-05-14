@@ -44,6 +44,9 @@ export async function POST(request: NextRequest) {
       unsure: "Unsure",
     };
 
+    console.log("SMTP2GO_USER present:", !!process.env.SMTP2GO_USER, "length:", process.env.SMTP2GO_USER?.length ?? 0);
+    console.log("SMTP2GO_PASS present:", !!process.env.SMTP2GO_PASS, "length:", process.env.SMTP2GO_PASS?.length ?? 0);
+
     const transporter = nodemailer.createTransport({
       host: "mail.smtp2go.com",
       port: 587,
