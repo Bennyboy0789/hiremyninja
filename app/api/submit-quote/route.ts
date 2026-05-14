@@ -1,9 +1,8 @@
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(request: NextRequest) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY ?? "");
     const formData = await request.formData();
 
     const name = formData.get("name") as string;
@@ -30,12 +29,22 @@ export async function POST(request: NextRequest) {
         })
     );
 
-    const toEmails = ["chrisj@crawlspaceninja.com", "ben@stagmkt.com"];
-    const fromEmail = process.env.RESEND_FROM_EMAIL ?? "quotes@crawlspaceninja.com";
+    const transporter = nodemailer.createTransport({
+      host: "mail.smtp2go.com",
+      port: 587,
+      secure: false,
+      auth: {
+        user: process.env.SMTP2GO_USER ?? "",
+        pass: process.env.SMTP2GO_PASS ?? "",
+      },
+    });
 
-    await resend.emails.send({
+    const toEmails = ["chrisj@crawlspaceninja.com", "ben@stagmkt.com", "agore@crawlspaceninja.com", "jessicaj@crawlspaceninja.com"];
+    const fromEmail = process.env.SMTP_FROM_EMAIL ?? "quotes@crawlspaceninja.com";
+
+    await transporter.sendMail({
       from: fromEmail,
-      to: toEmails,
+      to: toEmails.join(", "),
       subject: `New Quote Request — ${name} (The Triangle, NC)`,
       html: `
         <h2>New Crawl Space Quote Request</h2>

@@ -12,7 +12,8 @@
       "Bash(rm \"c:\\\\Users\\\\Ben\\\\Documents\\\\GitHub\\\\hiremyninja\\\\.git\\\\refs\\\\heads\\\\main\" && echo \"Deleted successfully\")",
       "Bash(git push *)",
       "Bash(rm \"c:\\\\Users\\\\Ben\\\\Documents\\\\GitHub\\\\hiremyninja\\\\.git\\\\refs\\\\remotes\\\\origin\\\\main\")",
-      "Bash(git fetch *)"
+      "Bash(git fetch *)",
+      "Bash(npm uninstall *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Ben\\Documents\\GitHub\\hiremyninja\\.git\\refs\\heads"
