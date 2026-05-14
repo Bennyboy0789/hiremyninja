@@ -37,13 +37,29 @@ export default function Home() {
     <>
       <SiteHeader />
       <main className="flex-1">
-        <HeroSection />
+        <HeroSection
+          headline={
+            <>
+              Raleigh&apos;s Trusted{" "}
+              <span className="text-[#EB1717]">Crawl Space Experts</span>
+              {" "}— Get Your Free Assessment
+            </>
+          }
+          subhead="Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. No salesperson. No pressure. Just honest answers about your crawl space."
+          ctaText="Request My Free Assessment →"
+          subtext="Takes about 2 minutes · No commitment required"
+        />
         <TrustBar />
         <LeadForm />
         <PainSection />
         <TestimonialsSection />
         <FAQSection />
-        <FinalCTA />
+        <FinalCTA
+          headline="Ready for Your Free Crawl Space Assessment?"
+          body="Fill out the form above and our Raleigh team will reach out within 2 hours."
+          ctaText="Request My Free Assessment →"
+          ctaHref="#calculator"
+        />
       </main>
       <SiteFooter />
     </>
