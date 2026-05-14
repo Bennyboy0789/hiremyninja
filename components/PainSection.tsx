@@ -7,7 +7,7 @@ const signs = [
   {
     icon: "💸",
     heading: "Energy Bills That Keep Climbing",
-    body: "An unencapsulated crawl space lets conditioned air escape and humid air in, forcing your HVAC to work overtime. Most Raleigh homeowners see a 15–20% drop in energy costs after encapsulation.",
+    body: "An unencapsulated crawl space lets conditioned air escape and humid air in, forcing your HVAC to work overtime. Most Triangle homeowners see a 15–20% drop in energy costs after encapsulation.",
   },
   {
     icon: "🏚️",
@@ -25,7 +25,7 @@ export default function PainSection() {
             Your Crawl Space Is Affecting Your Entire Home
           </h2>
           <p className="text-[#4E4E4E] max-w-xl mx-auto">
-            These are the most common signs Raleigh homeowners ignore — until the
+            These are the most common signs Triangle homeowners ignore — until the
             repair bill is two or three times what it could have been.
           </p>
         </div>

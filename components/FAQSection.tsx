@@ -9,11 +9,11 @@ const faqs = [
   },
   {
     q: "How long does crawl space encapsulation take?",
-    a: "Most jobs take 1–2 days for a standard Raleigh-area home. You don't need to vacate — we work in the crawl space, not inside your home. You can go about your day normally.",
+    a: "Most jobs take 1–2 days for a standard Triangle-area home. You don't need to vacate — we work in the crawl space, not inside your home. You can go about your day normally.",
   },
   {
     q: "How do I know if my crawl space really needs this?",
-    a: "If you have any musty smell, high humidity, visible mold, soft floors, or you simply haven't had it inspected in the last 5 years, the answer is almost certainly yes. Raleigh's climate makes crawl space moisture issues extremely common.",
+    a: "If you have any musty smell, high humidity, visible mold, soft floors, or you simply haven't had it inspected in the last 5 years, the answer is almost certainly yes. The Triangle's climate makes crawl space moisture issues extremely common.",
   },
   {
     q: "Do I need to be home during the work?",

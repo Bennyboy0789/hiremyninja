@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     await resend.emails.send({
       from: fromEmail,
       to: toEmails,
-      subject: `New Quote Request — ${name} (Raleigh, NC)`,
+      subject: `New Quote Request — ${name} (The Triangle, NC)`,
       html: `
         <h2>New Crawl Space Quote Request</h2>
         <p><strong>Name:</strong> ${name}</p>
@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
         <p><strong>Estimated Range Shown:</strong> ${priceRange}</p>
         <hr/>
         <p><strong>Photos:</strong> ${attachments.length > 0 ? `${attachments.length} attached` : "None submitted"}</p>
-        <p style="color:#888;font-size:12px;">Submitted via the Raleigh Facebook Ad landing page.</p>
+        <p style="color:#888;font-size:12px;">Submitted via the Triangle Facebook Ad landing page.</p>
       `,
       attachments,
     });

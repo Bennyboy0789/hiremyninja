@@ -3,8 +3,8 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Thank You — Crawl Space Ninja Raleigh",
-  description: "We received your request. Our Raleigh team will be in touch within 2 business hours.",
+  title: "Thank You — Crawl Space Ninja The Triangle",
+  description: "We received your request. Our team will be in touch within 2 business hours.",
   robots: { index: false, follow: false },
 };
 
@@ -21,7 +21,7 @@ export default function ThanksPage() {
             We&apos;ve Got Your Request!
           </h1>
           <p className="text-[#4E4E4E] mb-2 text-lg">
-            Our Raleigh team will reach out within{" "}
+            Our team will reach out within{" "}
             <strong className="text-black">2 business hours</strong>.
           </p>
           <p className="text-[#4E4E4E] mb-8">

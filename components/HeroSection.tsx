@@ -15,6 +15,7 @@ export default function HeroSection({
     </>
   ),
   subhead = "Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. No salesperson. No pressure. Just an honest price range built around your home.",
+
   ctaText = "Get My Free Estimate →",
   ctaHref = "#calculator",
   subtext = "Takes about 60 seconds · No commitment required",
@@ -30,7 +31,7 @@ export default function HeroSection({
 
       <div className="relative w-full max-w-4xl mx-auto text-center">
         <div className="inline-block bg-[#EB1717] text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded mb-5">
-          Raleigh, NC
+          🏅 Home of the Lifetime Transferable No-Mold Warranty
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-5">

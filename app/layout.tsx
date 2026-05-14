@@ -10,9 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
-  title: "Crawl Space Ninja Raleigh — Free Instant Price Estimate",
+  title: "Crawl Space Ninja — The Triangle, NC | Free Instant Price Estimate",
   description:
-    "Get an instant crawl space repair estimate for your Raleigh, NC home. Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. 700+ five-star reviews.",
+    "Get an instant crawl space repair estimate for your Triangle-area home. Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. 700+ five-star reviews.",
 };
 
 export default function RootLayout({

@@ -164,7 +164,7 @@ export default function PriceCalculator() {
             3 quick questions · takes about 2 minutes
           </p>
           <p className="text-sm text-[#4E4E4E] mt-1">
-            Join 700+ Raleigh homeowners who&apos;ve used this calculator
+            Join 700+ Triangle homeowners who&apos;ve used this calculator
           </p>
         </div>
 
@@ -322,7 +322,7 @@ export default function PriceCalculator() {
                 </div>
               </div>
               <p className="text-xs text-[#4E4E4E] mb-4">
-                This is a preliminary estimate based on typical Raleigh area pricing.
+                This is a preliminary estimate based on typical Triangle area pricing.
                 Exact costs depend on your specific situation.
               </p>
 
@@ -341,7 +341,7 @@ export default function PriceCalculator() {
               <div className="flex items-center justify-center gap-2 bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-5">
                 <span className="text-[#EB1717] text-lg">⏱</span>
                 <p className="text-sm text-[#1E293B]">
-                  <strong>Our Raleigh team books 2–3 weeks out.</strong> Lock in your spot before the schedule fills.
+                  <strong>Our team books 2–3 weeks out.</strong> Lock in your spot before the schedule fills.
                 </p>
               </div>
 
@@ -520,7 +520,7 @@ export default function PriceCalculator() {
                 We&apos;ve Got Your Request!
               </h3>
               <p className="text-[#4E4E4E] mb-2">
-                Our Raleigh team will review your photos and reach out within{" "}
+                Our team will review your photos and reach out within{" "}
                 <strong className="text-black">2 business hours</strong> with
                 your exact quote.
               </p>

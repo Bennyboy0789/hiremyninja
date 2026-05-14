@@ -92,7 +92,7 @@ export default function LeadForm() {
             Tell us about your home — we&apos;ll reach out within 2 hours.
           </p>
           <p className="text-sm text-[#4E4E4E] mt-1">
-            Join 700+ Raleigh homeowners who&apos;ve trusted Crawl Space Ninja
+            Join 700+ Triangle homeowners who&apos;ve trusted Crawl Space Ninja
           </p>
         </div>
 
@@ -160,7 +160,7 @@ export default function LeadForm() {
                   type="text"
                   value={address}
                   onChange={(e) => setAddress(e.target.value)}
-                  placeholder="123 Main St, Raleigh, NC 27601"
+                  placeholder="123 Main St, Cary, NC 27511"
                   className="w-full border-2 border-gray-200 focus:border-[#EB1717] rounded-lg px-4 py-3 text-black outline-none transition-colors"
                 />
               </div>
@@ -411,7 +411,7 @@ export default function LeadForm() {
                 We&apos;ve Got Your Request!
               </h3>
               <p className="text-[#4E4E4E] mb-2">
-                Our Raleigh team will review your info and reach out within{" "}
+                Our team will review your info and reach out within{" "}
                 <strong className="text-black">2 business hours</strong>.
               </p>
               <p className="text-[#4E4E4E] mb-8">
