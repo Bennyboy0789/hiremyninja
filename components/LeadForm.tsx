@@ -73,6 +73,15 @@ export default function LeadForm() {
 
       const res = await fetch("/api/submit-lead", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Submission failed");
+
+      // Fire Meta Pixel Lead event
+      if (typeof window !== "undefined" && typeof (window as /* eslint-disable-next-line @typescript-eslint/no-explicit-any */ any).fbq === "function") {
+        (window as /* eslint-disable-next-line @typescript-eslint/no-explicit-any */ any).fbq("track", "Lead", {
+          content_name: "Crawl Space Assessment",
+          content_category: "crawlspace",
+        });
+      }
+
       router.push("/thanks");
     } catch {
       setSubmitError("Something went wrong. Please call us at (919) 533-5666.");

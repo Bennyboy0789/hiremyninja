@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
@@ -12,6 +13,10 @@ export default function ThanksPage() {
   return (
     <>
       <SiteHeader />
+      {/* Backup Lead event — fires if someone lands directly on /thanks */}
+      <Script id="meta-lead-event" strategy="afterInteractive">
+        {`if(typeof fbq==='function'){fbq('track','Lead',{content_name:'Crawl Space Assessment',content_category:'crawlspace'})}`}
+      </Script>
       <main className="flex-1 flex items-center justify-center bg-[#F0F0F0] py-20 px-4">
         <div className="max-w-lg w-full bg-white rounded-2xl shadow-lg p-8 sm:p-12 text-center">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-green-100 text-4xl mb-6">
