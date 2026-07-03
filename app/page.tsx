@@ -41,24 +41,25 @@ export default function Home() {
         <HeroSection
           headline={
             <>
-              The Triangle&apos;s Trusted{" "}
-              <span className="text-[#EB1717]">Crawl Space Experts</span>
-              {" "}— Get Your Free Assessment
+              That Musty Smell in Your Home?{" "}
+              <span className="text-[#EB1717]">
+                It&apos;s Coming From Under Your Floor.
+              </span>
             </>
           }
-          subhead="Serving The Triangle — Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. No salesperson. No pressure. Just honest answers about your crawl space."
+          subhead="Standing water, mold, and rot in your crawl space rise into the air your family breathes — and it gets worse every month you wait. Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. No salesperson, no pressure."
           ctaText="Request My Free Assessment →"
           subtext="Takes about 2 minutes · No commitment required"
         />
         <TrustBar />
+        <PainSection />
         <LeadForm />
         <WarrantySection />
-        <PainSection />
         <TestimonialsSection />
         <FAQSection />
         <FinalCTA
-          headline="Ready for Your Free Crawl Space Assessment?"
-          body="Fill out the form above and our team will reach out within 2 hours."
+          headline="The Problem Doesn't Fix Itself. It Gets Worse."
+          body="Every month of moisture means more mold, more rot, and a bigger repair bill down the road. A free assessment today could save you thousands — find out where you stand."
           ctaText="Request My Free Assessment →"
           ctaHref="#calculator"
         />

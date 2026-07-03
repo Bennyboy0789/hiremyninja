@@ -126,7 +126,7 @@ export default function LeadForm() {
             <div>
               <h3 className="text-xl font-bold text-black mb-1">Your contact info</h3>
               <p className="text-sm text-[#4E4E4E] mb-6">
-                Step 1 of 3 — we&apos;ll use this to send your assessment.
+                We&apos;ll use this to reach you about your assessment.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
@@ -191,7 +191,9 @@ export default function LeadForm() {
           {step === 2 && (
             <div>
               <h3 className="text-xl font-bold text-black mb-1">About your crawl space</h3>
-              <p className="text-sm text-[#4E4E4E] mb-6">Step 2 of 3</p>
+              <p className="text-sm text-[#4E4E4E] mb-6">
+                A few quick details so we can help faster.
+              </p>
 
               {/* concerns */}
               <div className="mb-5">
@@ -332,7 +334,7 @@ export default function LeadForm() {
                 Add photos of your crawl space
               </h3>
               <p className="text-sm text-[#4E4E4E] mb-1">
-                Step 3 of 3 — photos help us give you a more accurate assessment.
+                Photos help us give you a more accurate assessment.
               </p>
               <p className="text-xs text-[#4E4E4E] mb-5">
                 🔒 Photos are only used to prepare your assessment — never shared or published.
