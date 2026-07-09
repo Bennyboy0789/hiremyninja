@@ -20,6 +20,14 @@ const faqs = [
     a: "You need to be present at the start so we can access the crawl space, but you don't need to stay. Most customers go to work and come back to a finished job.",
   },
   {
+    q: "How much does crawl space encapsulation cost?",
+    a: "It depends on your crawl space size, condition, and what's needed. Most Triangle-area homes range from $5,000–$12,000 for a full encapsulation. Smaller jobs or partial fixes can be less. That's why we give you an exact number during the free assessment — no guessing, no surprises.",
+  },
+  {
+    q: "I'm planning to sell my home soon — is this worth it?",
+    a: "Yes. A home inspection will almost certainly flag crawl space issues, and buyers will either demand a repair credit (often $10,000+) or walk away entirely. Fixing it now means you control the cost and the timeline — and you can list the home as 'encapsulated crawl space' which is a strong selling point in the Triangle market.",
+  },
+  {
     q: "Is the estimate really free with no commitment?",
     a: "100%. The calculator gives you an instant range and our team follows up with an exact number — both are completely free. There's no obligation to book and no salesperson pressure.",
   },

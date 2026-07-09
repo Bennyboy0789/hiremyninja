@@ -49,7 +49,7 @@ export default function Home() {
           }
           subhead="Standing water, mold, and rot in your crawl space rise into the air your family breathes — and it gets worse every month you wait. Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. No salesperson, no pressure."
           ctaText="Request My Free Assessment →"
-          subtext="Takes about 2 minutes · No commitment required"
+          subtext="Takes 60 seconds · No commitment required"
         />
         <TrustBar />
         <PainSection />
