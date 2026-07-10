@@ -4,7 +4,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Thank You — Crawl Space Ninja The Triangle",
+  title: "Thank You — Crawl Space Ninja of Raleigh",
   description: "We received your request. Our team will be in touch within 2 business hours.",
   robots: { index: false, follow: false },
 };

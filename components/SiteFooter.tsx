@@ -15,7 +15,7 @@ export default function SiteFooter() {
         </div>
 
         <div className="text-sm text-gray-300 text-center sm:text-left">
-          <p className="font-semibold text-white mb-1">Crawl Space Ninja — The Triangle, NC</p>
+          <p className="font-semibold text-white mb-1">Crawl Space Ninja of Raleigh, NC</p>
           <p>508 Hollymont Dr, Holly Springs, NC 27540</p>
           <a
             href="tel:+19195335666"

@@ -11,15 +11,15 @@ import FinalCTA from "@/components/FinalCTA";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Crawl Space Ninja — The Triangle, NC | Free Crawl Space Assessment",
+  title: "Crawl Space Ninja of Raleigh, NC | Free Crawl Space Assessment",
   description:
-    "Request a free crawl space assessment for your Triangle-area home. Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. 700+ five-star Google reviews. No salesperson, no pressure.",
+    "Request a free crawl space assessment for your Raleigh-area home. Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. 700+ five-star Google reviews. No salesperson, no pressure.",
   openGraph: {
-    title: "Get Your Free Crawl Space Assessment — The Triangle, NC",
+    title: "Get Your Free Crawl Space Assessment — Raleigh, NC",
     description:
       "Serving Raleigh, Cary, Apex, Wake Forest, Garner & Knightdale. Tell us about your home and we'll reach out within 2 hours.",
     url: "https://raleigh.crawlspaceninja.com",
-    siteName: "Crawl Space Ninja — The Triangle",
+    siteName: "Crawl Space Ninja of Raleigh",
     images: [
       {
         url: "/crawl space encapsultion.jpg",

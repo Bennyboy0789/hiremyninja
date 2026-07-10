@@ -164,7 +164,7 @@ export default function PriceCalculator() {
             3 quick questions · takes about 2 minutes
           </p>
           <p className="text-sm text-[#4E4E4E] mt-1">
-            Join 700+ Triangle homeowners who&apos;ve used this calculator
+            Join 700+ Raleigh homeowners who&apos;ve used this calculator
           </p>
         </div>
 
@@ -322,7 +322,7 @@ export default function PriceCalculator() {
                 </div>
               </div>
               <p className="text-xs text-[#4E4E4E] mb-4">
-                This is a preliminary estimate based on typical Triangle area pricing.
+                This is a preliminary estimate based on typical Raleigh area pricing.
                 Exact costs depend on your specific situation.
               </p>
 

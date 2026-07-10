@@ -11,9 +11,9 @@ import FinalCTA from "@/components/FinalCTA";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Crawl Space Price Calculator — The Triangle, NC | Crawl Space Ninja",
+  title: "Crawl Space Price Calculator — Raleigh, NC | Crawl Space Ninja",
   description:
-    "Use our free instant price calculator to estimate crawl space repair costs in The Triangle, NC. Encapsulation, insulation, mold removal, and waterproofing. No salesperson, no pressure.",
+    "Use our free instant price calculator to estimate crawl space repair costs in Raleigh, NC. Encapsulation, insulation, mold removal, and waterproofing. No salesperson, no pressure.",
 };
 
 export default function CalculatorPage() {

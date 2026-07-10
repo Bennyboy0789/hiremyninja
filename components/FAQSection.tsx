@@ -9,11 +9,11 @@ const faqs = [
   },
   {
     q: "How long does crawl space encapsulation take?",
-    a: "Most jobs take 1–2 days for a standard Triangle-area home. You don't need to vacate — we work in the crawl space, not inside your home. You can go about your day normally.",
+    a: "Most jobs take 1–2 days for a standard Raleigh-area home. You don't need to vacate — we work in the crawl space, not inside your home. You can go about your day normally.",
   },
   {
     q: "How do I know if my crawl space really needs this?",
-    a: "If you have any musty smell, high humidity, visible mold, soft floors, or you simply haven't had it inspected in the last 5 years, the answer is almost certainly yes. The Triangle's climate makes crawl space moisture issues extremely common.",
+    a: "If you have any musty smell, high humidity, visible mold, soft floors, or you simply haven't had it inspected in the last 5 years, the answer is almost certainly yes. Raleigh's climate makes crawl space moisture issues extremely common.",
   },
   {
     q: "Do I need to be home during the work?",
@@ -21,11 +21,11 @@ const faqs = [
   },
   {
     q: "How much does crawl space encapsulation cost?",
-    a: "It depends on your crawl space size, condition, and what's needed. Most Triangle-area homes range from $5,000–$12,000 for a full encapsulation. Smaller jobs or partial fixes can be less. That's why we give you an exact number during the free assessment — no guessing, no surprises.",
+    a: "It depends on your crawl space size, condition, and what's needed. Most Raleigh-area homes range from $5,000–$12,000 for a full encapsulation. Smaller jobs or partial fixes can be less. That's why we give you an exact number during the free assessment — no guessing, no surprises.",
   },
   {
     q: "I'm planning to sell my home soon — is this worth it?",
-    a: "Yes. A home inspection will almost certainly flag crawl space issues, and buyers will either demand a repair credit (often $10,000+) or walk away entirely. Fixing it now means you control the cost and the timeline — and you can list the home as 'encapsulated crawl space' which is a strong selling point in the Triangle market.",
+    a: "Yes. A home inspection will almost certainly flag crawl space issues, and buyers will either demand a repair credit (often $10,000+) or walk away entirely. Fixing it now means you control the cost and the timeline — and you can list the home as 'encapsulated crawl space' which is a strong selling point in the Raleigh market.",
   },
   {
     q: "Is the estimate really free with no commitment?",

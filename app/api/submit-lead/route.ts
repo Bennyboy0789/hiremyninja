@@ -79,7 +79,7 @@ export async function POST(request: NextRequest) {
         ${additionalInfo ? `<p><strong>Additional Info:</strong> ${additionalInfo}</p>` : ""}
         <hr/>
         <p><strong>Photos:</strong> ${attachments.length > 0 ? `${attachments.length} attached` : "None submitted"}</p>
-        <p style="color:#888;font-size:12px;">Submitted via the Triangle landing page lead form.</p>
+        <p style="color:#888;font-size:12px;">Submitted via the Raleigh landing page lead form.</p>
       `,
       attachments,
     });

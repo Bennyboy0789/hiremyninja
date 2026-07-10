@@ -26,7 +26,7 @@ export default function WarrantySection() {
           <p className="text-white/90 text-xl max-w-2xl mx-auto leading-relaxed">
             If mold ever returns after we encapsulate — we come back and fix it.
             <strong className="text-white"> Free. For life.</strong> No other crawl space
-            company in The Triangle offers this.
+            company in Raleigh offers this.
           </p>
         </div>
 

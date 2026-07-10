@@ -14,7 +14,7 @@ const testimonials = [
   {
     name: "Cordero C.",
     location: "Apex, NC",
-    text: "Caring, honest professionals. Very responsive and courteous throughout the entire process. Highly recommend to anyone in the Triangle area.",
+    text: "Caring, honest professionals. Very responsive and courteous throughout the entire process. Highly recommend to anyone in the Raleigh area.",
     stars: 5,
   },
 ];
@@ -37,10 +37,10 @@ export default function TestimonialsSection() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-extrabold text-black mb-2">
-            What Triangle Homeowners Are Saying
+            What Raleigh Homeowners Are Saying
           </h2>
           <p className="text-[#4E4E4E]">
-            700+ five-star reviews across The Triangle
+            700+ five-star reviews across Raleigh
           </p>
         </div>
 

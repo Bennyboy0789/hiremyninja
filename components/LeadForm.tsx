@@ -101,7 +101,7 @@ export default function LeadForm() {
             Tell us about your home — we&apos;ll reach out within 2 hours.
           </p>
           <p className="text-sm text-[#4E4E4E] mt-1">
-            Join 700+ Triangle homeowners who&apos;ve trusted Crawl Space Ninja
+            Join 700+ Raleigh homeowners who&apos;ve trusted Crawl Space Ninja
           </p>
         </div>
 
